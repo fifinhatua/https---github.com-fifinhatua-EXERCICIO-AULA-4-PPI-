@@ -1,0 +1,26 @@
+{
+  "name": "projetoppim3av",
+  "version": "1.0.0",
+  "description": "projeto aula 3",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fifinhatua/ProjetoPPIM3AV.git"
+  },
+  "author": "rafael haddad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fifinhatua/ProjetoPPIM3AV/issues"
+  },
+  "homepage": "https://github.com/fifinhatua/ProjetoPPIM3AV#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  }
+}

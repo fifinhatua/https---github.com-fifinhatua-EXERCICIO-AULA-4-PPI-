@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro de usuariot</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    form {
+        border: 2px solid black;
+        padding: 20px;
+        border-radius: 5px;
+        margin: 200px auto;
+        margin-left: 600px;
+
+    }
+
+    input {
+        display: block;
+    }
+</style>
+<body>
+    <form action='/cadastroUsuario' method='POST' id="form">
+        <label for="val_login">Login:</label><br>
+        <input id="val_login" name="login" type="text"><br>
+        <label for="Val_senha">Senha</label><br>
+        <input id="Val_senha" name="senha" type="text"><br>
+        <label for="ConfirmaSenha">Confirmar Senha</label><br>
+        <input id="ConfirmaSenha" name="confirmaSenha" type="text"><br><br>
+        <button id="CriarConta">Criar Conta</button>
+        <p id="resultado"></p>
+    </form>
+</body>
+</html>
